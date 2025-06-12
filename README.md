@@ -58,8 +58,7 @@ We are now ready for **Task 3: Predictive Modeling**
 ---
 
 ## Project Structure Overview
-'''
-
+```
 Insurance-Risk-Analytics---Predictive-Modeling-for-ACIS/
 │
 ├── .dvc/                          # DVC config & metadata
@@ -96,8 +95,7 @@ Insurance-Risk-Analytics---Predictive-Modeling-for-ACIS/
 ├── LICENSE
 ├── README.md                     # Project overview and documentation
 └── requirements.txt              # Python dependencies
-'''
-
+```
 ## sample outputs
 '''
 ![loss ratio by gender ](notebooks/plots/bivariate/loss_ratio_by_Gender.png)
