@@ -70,15 +70,15 @@ Insurance-Risk-Analytics---Predictive-Modeling-for-ACIS/
 ├── notebooks/                     # Jupyter notebooks
 │   ├── eda.ipynb                  # Task 1 EDA notebook
 │   └── import_clean.ipynb        # Data import and cleaning
-│
-├── plots/                         # All saved plots grouped by type
-│   ├── bivariate/
-│   ├── geography/
-│   ├── multivariate/
-│   ├── outliers/
-│   ├── time/
-│   ├── univariate/
-│   └── vehicle_risks/
+│   |
+|   ├── plots/                         # All saved plots grouped by type
+|      ├── bivariate/
+|      ├── geography/
+|      ├── multivariate/
+|      ├── outliers/
+|      ├── time/
+|      ├── univariate/
+|      └── vehicle_risks/
 │
 ├── reports/                       # For generated reports (optional)
 │
