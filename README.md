@@ -9,7 +9,7 @@ This project explores and models risk and profitability in insurance data using 
 ### Objective
 Gain a foundational understanding of the insurance dataset, assess data quality, and uncover patterns in customer risk and profitability.
 
-### 🔍 EDA Steps Performed
+### EDA Steps Performed
 - **Data Summarization**: Info, descriptive statistics
 - **Missing Value Analysis**: Visual and tabular inspection
 - **Univariate & Bivariate Analysis**:
@@ -63,7 +63,7 @@ Ensure reproducibility and traceability of the modeling pipeline through version
   ```
 * Pushed data to DVC remote:
 
-  ```bash
+
   dvc push
   ```
 
@@ -139,16 +139,14 @@ Insurance-Risk-Analytics---Predictive-Modeling-for-ACIS/
 └── requirements.txt               # Python dependencies
 ```
 
----
 
 ## Sample Outputs
 
-```
 ![Loss Ratio by Gender](notebooks/plots/bivariate/loss_ratio_by_Gender.png)
 ![Correlation Heatmap](notebooks/plots/multivariate/correlation_heatmap.png)
-```
 
----
+
+
 
 ## Tools & Technologies
 
