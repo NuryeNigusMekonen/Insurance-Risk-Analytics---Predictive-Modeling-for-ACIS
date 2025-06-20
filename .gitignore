@@ -6,6 +6,6 @@ __pycache__/
 *.log
 data/
 PM-venv/
-
+xgb-env/
 !data/*.dvc
 myenv310/
