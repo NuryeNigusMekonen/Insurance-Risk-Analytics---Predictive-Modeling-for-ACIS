@@ -21,31 +21,38 @@ To analyze insurance policy and claims data to:
 
 Insurance-Risk-Analytics---Predictive-Modeling-for-ACIS/
 ├── data/                         # Raw & processed datasets (DVC-managed)
-│   ├── machineLearningRating\_v3.txt
-│   ├── cleaned\_machineLearningRating.csv
-│   ├── processed\_for\_modeling.csv
-│   └── cleaned\_machineLearningRating.csv.dvc
+│   ├── machineLearningRating_v3.txt
+│   ├── cleaned_machineLearningRating.csv
+│   ├── processed_for_modeling.csv
+│   └── cleaned_machineLearningRating.csv.dvc
 ├── src/                          # Modularized Python code
-│   ├── data\_load.py              # Load & clean dataset
+│   ├── data_load.py              # Load & clean dataset
 │   ├── eda.py                    # EDA functions & plots
-│   ├── modeling.py               # Model training/evaluation
-│   └── utils.py                  # Reusable helpers
+│   └── __init__.py                 # Reusable helpers
 ├── notebooks/                    # Jupyter notebooks
-│   ├── import\_clean.ipynb        # Cleaning stage
+│   ├── import_clean.ipynb        # Cleaning stage
 │   ├── eda.ipynb                 # EDA & visual insights
 │   ├── task3\_hypothesis.ipynb    # A/B Hypothesis Testing
 │   └── task4\_modeling.ipynb      # Predictive Modeling
-├── plots/                        # Saved plots (grouped by type)
-│   ├── univariate/
-│   ├── bivariate/
-│   ├── multivariate/
-│   ├── time/
-│   ├── outliers/
-│   ├── geography/
-│   └── vehicle\_risks/
+|   ├── plots/                        # Saved plots (grouped by type)
+|    │   ├── univariate/
+|    │   ├── bivariate/
+|    │   ├── multivariate/
+|    │   ├── time/
+|    │   ├── outliers/
+|    │   ├── geography/
+|    │   └── vehicle_risks/
+|    ├── saved_models/                      
+|    │   ├── randomforest_best_model.pkl
+|    │   ├── scaler.pkl
+|    │   ├── sgb_claim_occured_model.pkl
+|    │   ├── xgboost_severity_model.pkl
+|
+├── APP.PY
 ├── .gitignore
 ├── .dvcignore
 ├── README.md
+├── LICENSE
 └── requirements.txt
 
 ````
@@ -172,8 +179,6 @@ pip install -r requirements.txt
 * Project: **Insurance Risk Analytics & Modeling for ACIS**
 
 ---
-
-```
 
 
 
