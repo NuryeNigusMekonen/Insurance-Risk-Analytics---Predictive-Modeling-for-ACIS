@@ -154,6 +154,11 @@ Enable reproducible data pipelines with **version-controlled datasets**.
 
 
 ##  Sample Outputs
+ 
+ Dashboard
+ ![dashboard](screenshoot/frontpage.png)
+  Dashboard
+ ![dashboard](screenshoot/reactdashboard.png)
 
 
 ![Loss Ratio by Gender](notebooks/plots/bivariate/loss_ratio_by_Gender.png)
